@@ -9,29 +9,31 @@ margin: 0;
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     min-height: 500px;
-    flex-basis: 0%;
 }
 
 .header-grp {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 10px 60px;
+    padding: 10px 120px;
+    margin-bottom: 30px;
 
 }
 
 .hero-all {
     display: flex;
     justify-content: space-between;
-    padding: 90PX 60px;
+    padding: 90PX 120px;
     gap: 20Px;
 }
  
 .hero-all-text {
     display: flex;
+  justify-content: center;
     flex-direction: column;
    gap: 10px;
+
 }
  
 ul {
@@ -40,18 +42,19 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 10PX;
+    gap: 20PX;
 }
 a {
     text-decoration: none;
     color: #E5E7EB;
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 15px;
 
 }
 .header {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .hero {
@@ -66,5 +69,9 @@ a {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-}
+    border-style: none;
+    padding: 8px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    
 
