@@ -73,5 +73,131 @@ button {
     padding: 8px 30px;
     border-radius: 6px;
     font-weight: bold;
+   }
     
+.hero-all {
+    gap: 80px;
+}
+.cont-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 150PX;
+    min-height: 500px;
+    max-height: 500px;
 
+    box-sizing: border-box;
+    flex: none;
+}
+.information {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+margin-bottom: 50px;
+    gap: 50PX;
+    width: 112PX;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .info-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
+        padding-top: 40PX;
+      }
+
+      .information > .info > img {
+        border-radius: 10px;
+        border: solid #3882F6;
+   
+      }
+      .information > .info > div {
+        text-align: center;
+      }
+      .cont-three {
+        background-color: #E5E7EB;
+        min-height: 400px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 170PX;
+        font-size: 36PX;
+        font-weight: 300;
+        max-width: fit-content;
+        gap: 20PX;
+      }
+.quote-auth {
+    font-size: 27PX;
+    font-weight: 600;
+    display: flex;
+    margin-left: auto;
+    margin-right: 40PX;
+}
+    
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.cont-four {
+    min-height: 400px;
+    display: flex;
+ 
+   align-items: center;
+   justify-content: center;
+   padding: 10px 90PX;
+    
+}
+
+
+.container-c {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 1000px;
+    height: 130PX;
+    border-radius: 10PX;
+    gap: 50px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120PX;
+   
+    
+  
+}
+ .container-c > .button-c > button {
+    border: solid #F9FAF8;
+   
+ }
+
+ .call-txt {
+    font-weight: 900;
+    font-size: larger;
+ }
+
+
+ .footer {
+    background-color: #1F2937;
+    height: 80PX;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: small;
+ }
+ 
